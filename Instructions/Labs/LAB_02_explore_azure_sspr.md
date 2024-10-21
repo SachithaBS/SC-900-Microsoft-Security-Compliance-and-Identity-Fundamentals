@@ -6,7 +6,7 @@ Lab:
 ---
 --->
 
-# Lab: Explore Azure AD Authentication with self-service password reset
+# Lab: Microsoft Entra self-service password reset
 
 This lab maps to the following Learn content:
 
