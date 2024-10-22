@@ -202,7 +202,7 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. Selecting any line item provides more detailed information about the policy. Select an item from the list, i.e. **Risky sign-in**. 
 
-    >**Note**: that you can also create a policy. Select **+ Create policy (2)** to view the types of policies you can create.  Select **Activity policy** to view the different options available for creating the policy.  Select **Cancel** to exit out of the configuration window.
+    >**Note**: that you can also create a policy. Select **+ Create policy (3)** to view the types of policies you can create.  Select **Activity policy** to view the different options available for creating the policy.  Select **Cancel** to exit out of the configuration window.
  
      ![Picture 1](../Images/sc900-managepolicy.png)
      
