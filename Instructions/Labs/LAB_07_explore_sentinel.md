@@ -51,10 +51,11 @@ In this lab, you will complete the following tasks:
 
 1. Keep this page open, as you will use it in the next task.
 
+    <validation step="e6ffbb4b-3ecb-42af-9dcd-0c1044de2a66" />
+    
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you receive a success message, you can proceed to the next task.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Task 2: Built-in Microsoft Sentinel roles
@@ -79,6 +80,13 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 1. Return to the All services page of Azure, by selecting **All Services** from the top-left corner of the page, above where it says Resource groups.
 
+   <validation step="6ef79789-58a4-4dc4-a65e-8b5aacef02c1" />
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ## Task 3: Data connector to your instance of Microsoft Sentinel
 
 In this task you will walk through the steps involved in setting up a data connector to your instance of Microsoft Sentinel and selecting a built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source. Note: Azure lab subscriptions may experience greater than normal delays in connecting to a data source and/or visualizing data.
@@ -97,17 +105,17 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. Once installation process is done, navigate back to **Microsoft Sentinel | Data connector** page and refresh the page to get **Microsoft Defender for Cloud** option.
 
-1. On the **Microsoft Sentinel | Data connector** page , select **Microsoft Defender for Cloud**.
+1. On the **Microsoft Sentinel | Data connector** page , select **Subscription-based Microsoft Defender for Cloud (Legacy)**.
    
-1. The Microsoft Defender for Cloud connector window opens. Review the description then Select **Open connector page**.
+1. The **Subscription-based Microsoft Defender for Cloud (Legacy)** window opens. Review the description then Select **Open connector page**.
  
-    ![Picture 1](../Images/sc900-dataconnector-msdefender(1).png)
+    ![Picture 1](../Images/T3S8.png)
 
-1. From the Microsoft Defender for Cloud connector page, review the Description on the left side of the window.
+1. From the Subscription-based Microsoft Defender for Cloud (Legacy) connector page, review the Description on the left side of the window.
 
 1. The instructions tab in the main window, provides the prerequisites. Review the instructions and configuration information.
 
-1. From the configuration section, select listed subscription, select your azure subscription so that a checkmark appears in a blue box,
+1. From the configuration section, select listed subscription, select your azure subscription so that a checkmark appears in a blue box.
 
 1. Then select **Connect** (the connect option is shown above the search box).
 
@@ -117,34 +125,22 @@ In this task you will walk through the steps involved in setting up a data conne
    
 1. Return to **Microsoft Sentinel** and from the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>**.
        
-1. From the left navigation panel, select **Workbooks**, scroll down and select **Go to Content hub**.
-
-1. On **Content hub** page in the Search bar, search for **ASC Compliance and Protection**  and then from the list select **ASC Compliance and Protection (1)** and click **Install (2)**
-
-    ![Picture 1](../Images/image8-lab7.png) 
-
-1. Once the installation process is done, navigate back to **Microsoft Sentinel | Workbooks** page and refresh the page and go to the templates tab to view the  **ASC Compliance and Protection** option.
-
-   ![Picture 1](../Images/s7.png) 
-
-1. Select **ASC Compliance and Protection** option and click **Save**.In the prompt that appears you can leave it to the default location and click **Yes**.
-
-   ![Picture 1](../Images/s9.png)
-
-   >**Note:** You may have to click on the small double-headed arrow towards the right of the page to view the options.
-
-1. Now, click on **View saved Notebook**.
-
-   ![Picture 1](../Images/s10.png)
-
-1. In the workspace field, select **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>** if it is not selected already.
-
-1. From the top of the workbook page, select **Auto refresh: Off**, then select **5 minutes** and select **Apply**.
-
-1. From the top of the workbook page, select the **Save icon**.
+1. From the left navigation panel, select **Analytics** under Configuration panel, search for **Detect CoreBackUp Deletion Activity** from related security alerts. This brings up the Analytics Rules page.
    
-1. Keep this page open, as you'll use it in the next task
-    
+1. Again, select the **Detect CoreBackUp Deletion Activity** from related security alerts rule. A window that opens on the right, that provides information about the rule and what it does. Select **Create rule**.
+
+    ![Picture 1](../Images/T3S17.png) 
+
+1. Although the details of the rule logic are beyond the scope of the fundamentals, go through each tab in the rule creation to view the type of information that can be configured.
+
+1. When you reach the Review + create tab, select **Save**.
+
+    ![Picture 1](../Images/T3S18.png) 
+
+1. Return to the Sentinel page by selecting Microsoft Sentinel then select **Content hub** at the top of the page, above where it says **Analytics rules**.
+
+1. Keep this page open, as you'll use it in the next task.
+
 ## Task 4 : Explore on capabilities available in Sentinel
 
 In this task, you'll walk through some of the options available in Sentinel.
@@ -165,7 +161,7 @@ In this task, you'll walk through some of the options available in Sentinel.
 
    >**Note**: You may need to select the "**>>**" at the far-right side of the window to see the information panel.
 
-1. From the left navigation panel, select **Community** under **Content Management**. Microsoft security analysts constantly create and add new workbooks, playbooks, hunting queries, and more, posting them to the community for you to use in your environment. From the right side of the screen,
+1. From the left navigation panel, select **Community** under **Content Management**. Microsoft security analysts constantly create and add new workbooks, playbooks, hunting queries, and more, posting them to the community for you to use in your environment. From the right side of the screen.
 
 1. From the left navigation panel, select **Analytics**.  Select the first item from the list **Advanced Multistage Attack Detection**.
 
@@ -184,13 +180,7 @@ In this task, you'll walk through some of the options available in Sentinel.
     ![Picture 1](../Images/sc900-2.png)
   
 1. Close the window by selecting the **X** on the top-right corner of the window.
-
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-      
+     
 ## Review
 In this lab, you have completed:
 - Creating a Microsoft Sentinel instance
