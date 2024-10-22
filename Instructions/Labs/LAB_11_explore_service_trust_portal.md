@@ -50,7 +50,7 @@ In this task you will explore the Service Trust portal and the different types o
         
 1. if prompted, select **Agree** to accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
 
-1. Note the description on the top of the page and available applicable documents. Select the **ellipsis(...)** under the More Options and then select **Save to Library**.
+1. Note the description on the top of the page and available applicable documents. Select the **ellipsis(...) (1)** under the More Options and then select **Save to Library (2)**.
 
    ![](../Images/Service-portal2.png)
    
@@ -72,7 +72,7 @@ In this task you will explore the Service Trust portal and the different types o
 
    ![](../Images/service-portal-4.png)
    
-1. From the Service Trust Portal home page, scroll down to the **Industry and Regional Resources** category.  Note the available tiles.  Select **Financial Services**. 
+1. From the Service Trust Portal home page, scroll down to the **Industry and Regional Resources (1)** category.  Note the available tiles.  Select **Financial Services (2)**. 
  
    ![](../Images/service-portal-9.png)
 
@@ -86,7 +86,7 @@ In this task you will explore the Service Trust portal and the different types o
    
    ![](../Images/service-portal-4.png)
     
-1. From the Service Trust Portal home page, scroll down to the **Resource for your Organization** category. Select **Resources for your Organization**.  Note that any documents listed here are based on your organization's subscription and permissions.    
+1. From the Service Trust Portal home page, scroll down to the **Resource for your Organization (1)** category. Select **Resources for your Organization (2)**.  Note that any documents listed here are based on your organization's subscription and permissions.    
 
    ![](../Images/service-portal-8.png)
    
@@ -100,7 +100,7 @@ In this task you will explore the Service Trust portal and the different types o
 
 In this task you will visit the Trust Center and navigate to Microsoft’s six, key privacy principles.
 
-1. From the Service Trust Portal home page, scroll down to the **Reports, Whitepapers, and Artifacts** category. Select **Privacy and Data Protection**.  
+1. From the Service Trust Portal home page, scroll down to the **Reports, Whitepapers, and Artifacts (1)** category. Select **Privacy and Data Protection (2)**.  
 
    ![](../Images/service-portal-10.png)
 
