@@ -88,7 +88,7 @@ In this task you will explore the Service Trust portal and the different types o
     
 1. From the Service Trust Portal home page, scroll down to the **Resource for your Organization (1)** category. Select **Resources for your Organization (2)**.  Note that any documents listed here are based on your organization's subscription and permissions.    
 
-   ![](../Images/service-portal-8.png)
+   ![](../Images/service-portal-8.1.png)
    
    ![](../Images/service-portal-7.png)
    
