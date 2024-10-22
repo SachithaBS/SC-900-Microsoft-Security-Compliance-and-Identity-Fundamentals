@@ -31,37 +31,47 @@ In this lab, you will complete the following tasks:
 
    * Password : **<inject key="AzureAdUserPassword"></inject>** 
 
-1. From the left navigation menu, under **System**, select **Settings (1)**.
+1. From the left navigation menu, under **System**, select **Settings**.
+
+     ![Picture 1](../Images/Asc-900-image15.png)
 
 1. On the **Settings** page, select **Cloud apps**.
 
+     ![Picture 1](../Images/Asc-900-image16.png)
+   
 1. On the **Cloud apps** page, Under **Cloud Discovery**, select **Snapshot Reports (2)**, and click **+ Create Snapshot Report (3)**.
 
-    ![Picture 1](../Images/snapshot-2.png)
+    ![Picture 1](../Images/Asc-900-image17.png)
  
 1. Under **Overview** tab, click **Next >**.
-    
+
+     ![Picture 1](../Images/Asc-900-image18.png)
+
 1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View log format** then **Download sample log** and click on **Next**.
  
-   ![Picture 1](../Images/createsnapsotanddown.png)
+   ![Picture 1](../Images/Asc-900-image19.png)
  
 1. Under **Upload Traffic Logs** Tab, In **Choose traffic logs** browse and upload the log file which you downloaded. Click **Upload logs >**.
 
+      ![Picture 1](../Images/Asc-900-image20.png)
+
 1. After the upload completes, click on **snapshot reports** link on **Create new Cloud Discovery snapshot report** page.
 
+      ![Picture 1](../Images/Asc-900-image20.png)
+   
 1. After you upload your log files, it will take some minutes for them to be parsed and analyzed. Wait till the status of your log files turns **Ready**.
 
-    ![Picture 1](../Images/readysr.png)
+    ![Picture 1](../Images/Asc-900-image29.png)
     
 1. Open a new tab  enter **admin.microsoft.com**
 
 1. Sign in with your admin credentials.
     
-    - In the Sign in window enter Email/Username: <inject key="AzureAdUserEmail"></inject>  then select **Next**.
+    - Email/Username: <inject key="AzureAdUserEmail"></inject>  then select **Next**.
     
-    - Enter the admin password  Password: <inject key="AzureAdUserPassword"></inject>
+    - Password: <inject key="AzureAdUserPassword"></inject>
     
-    - When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+1. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -105,25 +115,33 @@ In this lab, you will complete the following tasks:
 
 1. The information provided in these tabs is based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.
    
-1. You can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions** then select **Cloud Discovery Settings**.  From the left side of the screen, under Connected apps, select **App connectors**.
+1. You can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions** then select **Cloud Discovery Settings**.
 
-    ![Picture 1](../Images/sc900-users.png)
+    ![Picture 1](../Images/Asc-900-image23.png)
     
-1. Now you'll set up a new app connector.  Select **+ Connect an app** and from the drop-down list select **Microsoft 365**.
+1. From the left side of the screen, under **Connected apps**, select **App connectors**. Now you'll set up a new app connector.  Select **+ Connect an app** and from 
+   the drop-down list select **Microsoft 365**.
 
+   ![Picture 1](../Images/Asc-900-image24.png)
+   
 1. From the Microsoft Azure pop-up window, select **Connect Office 365** then select **Done**.
+
+    ![Picture 1](../Images/Asc-900-image25.png)
+
+    ![Picture 1](../Images/Asc-900-image26.png)
 
 1. You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left navigation panel.
     
-    ![Picture 1](../Images/updated1.png)
-    
-1. Now you'll set up a another new app connector.  Select **+ Connect an app** and from the drop-down list select **Microsoft Azure**.
+1. Now you'll set up a another new app connector.  From the left side of the screen, under **Connected apps**, select **App connectors**.Select **+ Connect an app** and 
+   from the drop-down list select **Microsoft Azure**.
 
+    ![Picture 1](../Images/Asc-900-image27.png)
+   
 1. From the Microsoft Azure pop-up window, select **Connect Microsoft Azure** then select **Done**.  You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.
   
-1. Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
+1. Back on **App Connectors** review the status for both **Microsoft 365** and **Microsoft Azure**.
     
-    ![Picture 1](../Images/update.png)
+    ![Picture 1](../Images/Asc-900-image28.png)
 
 ## Task 2: Explore the Cloud app catalog
 
