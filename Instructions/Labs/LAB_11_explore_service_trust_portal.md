@@ -52,7 +52,7 @@ In this task you will explore the Service Trust portal and the different types o
 
 1. Note the description on the top of the page and available applicable documents. Select the **ellipsis(...) (1)** under the More Options and then select **Save to Library (2)**.
 
-   ![](../Images/Service-portal2.png)
+   ![](../Images/Service-portal2.1.png)
    
 1. A window will pop up asking if you want to subscribe to this document.  Select **Yes**.
 
