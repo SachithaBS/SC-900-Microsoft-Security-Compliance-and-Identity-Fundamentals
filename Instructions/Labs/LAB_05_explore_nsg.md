@@ -91,13 +91,14 @@ In this task, you’ll create a Windows 10 virtual machine to set up an isolated
 
    ![Picture 1](../Images/add_network.png)
     
-- The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
-- Select **Effective security rules 0** link.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
+   - The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select 
+     Outbound port rules.
+   - Select **Effective security rules 0** link.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 <validation step="24fbcf68-d975-439f-9d37-7e35ffd329f4" />
 
@@ -162,12 +163,13 @@ In this task, you’ll create a network security group, assign it to the VM’s 
     
     > **Note:** the warning sign at the bottom of the page. We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
   
-    > **Note:** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
+    > **Note:** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a 
+      warning sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 <validation step="8ecbe441-8eed-4208-8da0-bbd3c55a6f26" />
 
@@ -249,10 +251,10 @@ In this task, you’ll configure outbound internet traffic for the VM to ensure 
 
 1. In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 <validation step="ce6c9e7b-b43c-4e76-8684-24dca8019552" />
 
