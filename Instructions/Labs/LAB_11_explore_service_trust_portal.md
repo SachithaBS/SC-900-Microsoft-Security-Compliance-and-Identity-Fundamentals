@@ -21,57 +21,80 @@ In this lab, you will complete the following tasks:
 
 In this task you will explore the Service Trust portal and the different types of content available, you will learn how to access reports, and how to save reports to your library.
 
-1. Within the virtual machine(VM) on the left, click Microsoft edge shortcut (Medge) on the desktop and enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. 
+1. Within the virtual machine(VM) on the left, click Microsoft edge shortcut (Medge) on the desktop and enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein.
 
-1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in, which will be under the any certifications or regulatory standards > click on ISO/IEC > click on Lock Symbol to **Sign in**
+   ![](../Images/service-portal-00.png)
 
-    ![](../Images/new_portal_securitycompliance.png) 
+1. You have now arrived at the Service Trust Portal.
 
-1. On **Sign in** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+   ![](../Images/service-portal-0001.png)
+
+1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. To **Sign-in** Scroll down and select **ISO/ICE** which will be under Certifications, Regulations and Standards.
+   
+   ![](../Images/Service-Portal1.png)
+
+1. Click on **Sign in** blade.
+
+   ![](../Images/Service-Portal-0002.png)
+
+1. A login Screen appears, in that enter the following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+     ![](../Images/Service-portal-login.png)
+     
 
 1. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
-   
+
+     ![](../Images/service-portal-login2.png)
+        
 1. if prompted, select **Agree** to accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
 
-1. Note the description on the top of the page and available applicable documents. Select the **ellipsis(...)** under the More Options and then select **Save to Library**. A window will pop up asking if you want to subscribe to this document.  Select **Yes**. A window will pop up for notification settings, note the different settings and select **Daily** and Select **Save**.
+1. Note the description on the top of the page and available applicable documents. Select the **ellipsis(...)** under the More Options and then select **Save to Library**.
 
-   ![](../Images/sc-900-lab11-5-6.png)
+   ![](../Images/Service-portal2.png)
    
+1. A window will pop up asking if you want to subscribe to this document.  Select **Yes**.
+
    ![](../Images/sc-900-lab11-5-7-1.png)
-   
+  
+1. A window will pop up for notification settings, note the different settings and select **Daily** and Select **Save**.
+ 
    ![](../Images/sc-900-lab11-5-8-1.png)
 
 1. To verify that the document has been saved, scroll up to the top of the page and select **My Library**, view the document that we have saved.
 
-   ![](../Images/sc-900-lab11-7.png)
+   ![](../Images/service-portal-3.0.png)
    
-   ![](../Images/sc-900-lab11-7-1.png)
+   ![](../Images/service-portal3.png)
 
 1. From the top of the My Library page, select **Service Trust Portal** to return to the Service Trust Portal home page.
 
-   ![](../Images/sc-900-lab11-8.png)
+   ![](../Images/service-portal-4.png)
    
-1. From the Service Trust Portal home page, scroll down to the **Industry and Regional Resources** category.  Note the available tiles.  Select **Financial Services**.  Scroll down to see all the available regions and countries.  Select the tile for any country to view the applicable documents.
+1. From the Service Trust Portal home page, scroll down to the **Industry and Regional Resources** category.  Note the available tiles.  Select **Financial Services**. 
  
-   ![](../Images/sc-900-lab11-9.png)
-   
-   ![](../Images/sc-900-lab11-9-1.png)
+   ![](../Images/service-portal-4.png)
+
+1. Scroll down to see all the available regions and countries.  Select the tile for any country to view the applicable documents.
+
+   ![](../Images/service-portal-5.png)
+
+   ![](../Images/service-portal-6.png)   
  
 1. Navigate back to the Service Trust Portal home page, select the link **Service Trust Portal** at the top of the page.
    
-    ![](../Images/sc-900-lab11-8.png)
+   ![](../Images/service-portal-4.png)
     
 1. From the Service Trust Portal home page, scroll down to the **Resource for your Organization** category. Select **Resources for your Organization**.  Note that any documents listed here are based on your organization's subscription and permissions.    
 
-   ![](../Images/sc-900-lab11-11.png)
+   ![](../Images/service-portal-8.png)
    
-   ![](../Images/sc-900-11-11-1.png)
+   ![](../Images/service-portal-7.png)
    
 1. Navigate back to the Service Trust Portal home page, select the link **Service Trust Portal** at the top of the page.
 
-   ![](../Images/sc-900-lab11-8.png)
+   ![](../Images/service-portal-4.png)
     
 ## Task 2: Explore on Trust Center and navigate to Microsoft’s six, key privacy principles
 
@@ -79,15 +102,15 @@ In this task you will visit the Trust Center and navigate to Microsoft’s six, 
 
 1. From the Service Trust Portal home page, scroll down to the **Reports, Whitepapers, and Artifacts** category. Select **Privacy and Data Protection**.  
 
-   ![](../Images/sc-900lab11-T1-1.png)
+   ![](../Images/service-portal-10.png)
 
 1. In addition to listing all applicable documents, there is a description of the category followed by a link to Learn more.  Select **Learn more**.
 
-   ![](../Images/sc-900lab11-T1-2.png)
+   ![](../Images/service-portal-11.png)
 
 1. A new browser page opens to the Microsoft Trust Center where you find more information, including information about privacy and much more. Explore the contents of this page and navigate through different links.
 
-   ![](../Images/sc-900lab11-T1-3.png)
+   ![](../Images/service-portal-12.png)
 
 1. Close your browser windows to exit out the Service Trust Portal and the Trust Center.
 
