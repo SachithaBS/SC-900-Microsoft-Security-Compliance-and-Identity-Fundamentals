@@ -36,7 +36,7 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
 1. Select **Diego Siciliani** from the list of users.
 
-1. Select **Reset password** from the top of the page. Since you haven't previously signed in as Diego, you don’t know his password, and will need to reset the password.
+1. Select **Reset password** from the top of the page. Since you haven't previously signed in as Diego, you don’t know his password and will need to reset the password.
 
 1. When the password reset window opens, select **Reset Password** and copy the password.
 
@@ -74,7 +74,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. Under Select members you will see 1 Member(s) selected and the name and email of the selected member(s), Deigo Siciliani. From the bottom of the Add assignments page, select **Next**.
 
-1. You are now on the Setting page.  Leave the Assignment type to the default setting, **Eligible**.
+1. You are now on the **Setting** page.  Leave the Assignment type to the default setting, **Eligible**.
 
 1. If the Permanently eligible box is checked, select **Permanently eligible**, to remove the checkmark.
 
@@ -88,11 +88,11 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. From the top of the page, select **Settings**.
 
-1. In the Role setting details for the User Administrator, notice the different options.  Note that the setting to “Require justification on activation” is set to yes, and “On activation, require Azure MFA” is also set.  You will see both of these in the next task when Diego activates the role.  Also, note that “Require approval to activate” is set to No.  Leave all the settings to their default values.  Close the page by selecting the **X** on the top right corner of the screen.
+1. In the Role setting details for the User Administrator, notice the different options.Note that the setting to “Require justification on activation” is set to yes, and “On activation, require Azure MFA” is also set. You will see both of these in the next task when Diego activates the role.  Also, note that “Require approval to activate” is set to No. Leave all the settings to their default values. Close the page by selecting the **X** on the top right corner of the screen.
 
    ![](../Images/settings_new10.png)
 
-1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
+1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then close all the browser windows.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
@@ -111,10 +111,10 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
 1. Sign in as Diego Siciliani.
    
-    1. In the Sign in window enter **diegos@azureholxxxx.onmicrosoft.com** (user email id of the Diego Siciliani  ) then select **Next**.
-    1. Enter the temporary password that you noted from the previous task and select **Sign in**.  Select **Sign in**.
-    1. Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
-    1. When prompted to stay signed- in, select **Yes**.
+    - In the Sign in window enter **diegos@azureholxxxx.onmicrosoft.com** (user email id of the Diego Siciliani) then select **Next**.
+    - Enter the temporary password that you noted from the previous task and select **Sign in**.  Select **Sign in**.
+    - Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
+    - When prompted to stay signed- in, select **Yes**.
 
 1. From the left navigation panel, expand **Identity Governance** then select **Privileged Identity Management**.
 
@@ -124,22 +124,23 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
     ![](../Images/activate-role.png)
 
-1. You will see a warning icon indicating Additional verification is required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role require multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once. 
+1. You will see a warning icon indicating Additional verification is required.  Select **Click to continue**. Recall that the PIM settings for the User administrator role require multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once. 
 
     ![](../Images/sc900lab4-image5.png)
 
 1. You are notified that more information is required, select **Next**.
 
-1. The window that appears and the steps that follow are for the Microsoft Authenticator app method. .
-    1. If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
-    1. You'll begin to setup your account.  Select **Next**.
-    1. Using the Microsoft Authenticator app on your mobile device, select the **+** to add an account and select **Work or school account**.
-    1. Select the option to **Scan the QR code**, then using your mobile device, scan the QR code on your PC screen .
-    1. Using the Microsoft Authenticator app on your mobile device, scan the QR code.
-    1. Follow the steps on your PC and mobile device, then select **Next**.
-    1. Once you've setup your security info, you'll see a Success window.  Select **Done**.
+1. The window that appears and the steps that follow are for the Microsoft Authenticator app method.
 
-    ![](../Images/settings_authenticator_app_new.png)
+    - If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
+    - You'll begin to setup your account. Select **Next**.
+    - Using the Microsoft Authenticator app on your mobile device, select the **+** to add an account and select **Work or school account**.
+    - Select the option to **Scan the QR code**, then using your mobile device, scan the QR code on your PC screen.
+    - Using the Microsoft Authenticator app on your mobile device, scan the QR code.
+    - Follow the steps on your PC and mobile device, then select **Next**.
+    - Once you've setup your security info, you'll see a Success window.  Select **Done**.
+
+        ![](../Images/settings_authenticator_app_new.png)
 
 1. The Activate User Administrator window appears.  You are required to enter a reason for the activation.  In the box that appears, enter any reason you want (max of 500 characters), then select **Activate**.
 
@@ -155,16 +156,22 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
 1. As a Microsoft Entra ID user administrator, you can create users and groups, manage licenses, and more. From the Microsoft Entra admin center page, search and select **Groups**.
 
+    ![](../Images/new-lab8-1.png)
+
 1. Select **All groups** from the left pan and select **New Group**.
 
-1. You will be navigated to New Group tab, provide the name of the group as **Mark 8 Project Team** and keep rest of the settings default
+    ![](../Images/new-lab8-4.png)
+
+1. You will be navigated to New Group tab, provide the name of the group as **Mark 8 Project Team** and select **Create** keeping rest of the settings as default.
 
     | Setting | Value |
     | --- | --- |
-    | Group type | **Security**  |
+    | Group type | **Security** |
     | Group name | **Mark 8 Project Team** |
     | Group description | Provide group description as per your need |
     | Membership type | **Assigned** |
+
+    ![](../Images/new-lab8-2.png)
 
 1. From the left navigation panel, expand **Identity**, select **All Users** from the **Users** section.
 
@@ -180,11 +187,11 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
 1. From the bottom of the page, select **Select**.
 
-    ![](../Images/add-group-to-bianca.png)
+    ![](../Images/new-lab8-3.png)
 
-1. On the Groups page, notice that the Mark 8 Project Team group has been added to the list (if you don't immediately see it it listed, select teh **Refresh** button).
+1. On the Groups page, notice that the **Mark 8 Project Team group** has been added to the list (if you don't immediately see it in list, select the **Refresh** button).
 
-1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
+1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then close all the browser windows.
 
 1. The duration of the user admin role is limited to the time that was configured.
 
