@@ -193,7 +193,7 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. From the left navigation panel, select **Activity Log**, under **Cloud apps**. Here you get visibility into all the activities from your connected apps.
    
-   ![Picture 1](../Images/files-3.png)
+   ![Picture 1](../Images/file-3.png)
 
 1. You may not see any data listed as it can take several hours to perform retroactive scans once audit is enabled and lab tenants may experience longer than normal delays. Note the available filter options and the option to create new a policy from search.
 
