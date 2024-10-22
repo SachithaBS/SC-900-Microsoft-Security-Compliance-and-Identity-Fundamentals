@@ -179,8 +179,9 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
    ![Picture 1](../Images/file-1.png)
 
-   >**Note**: On the Files page, if it says For Defender for Cloud Apps to monitor files in your SaaS apps, go to Settings and Enable file monitoring, select **Enable file monitoring**, then select the **check box (1)** for enabling file monitoring, and select **Save (2)**.
-     ![Picture 1](../Images/file-2.png)
+1. On the Files page, if it says For Defender for Cloud Apps to monitor files in your SaaS apps, go to Settings and Enable file monitoring, select **Enable file monitoring**, then select the **check box (1)** for enabling file monitoring, and select **Save (2)**.
+
+  ![Picture 1](../Images/file-2.png)
 
 1. Select **+ New policy from search**.
 
