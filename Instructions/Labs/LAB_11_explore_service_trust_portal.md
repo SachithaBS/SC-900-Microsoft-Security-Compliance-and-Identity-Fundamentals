@@ -35,7 +35,7 @@ In this task you will explore the Service Trust portal and the different types o
 
 1. Click on **Sign in** blade.
 
-   ![](../Images/service-Portal-0002.png)
+   ![](../Images/service-portal-0002..png)
 
 1. A login Screen appears, in that enter the following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
