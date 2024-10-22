@@ -102,7 +102,7 @@ In this task you will visit the Trust Center and navigate to Microsoft’s six, 
 
 1. From the Service Trust Portal home page, scroll down to the **Reports, Whitepapers, and Artifacts (1)** category. Select **Privacy and Data Protection (2)**.  
 
-   ![](../Images/service-portal-10.png)
+   ![](../Images/service-portal-10.1.png)
 
 1. In addition to listing all applicable documents, there is a description of the category followed by a link to Learn more.  Select **Learn more**.
 
