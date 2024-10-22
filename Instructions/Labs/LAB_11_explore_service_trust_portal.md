@@ -21,7 +21,7 @@ In this lab, you will complete the following tasks:
 
 In this task you will explore the Service Trust portal and the different types of content available, you will learn how to access reports, and how to save reports to your library.
 
-1. Within the virtual machine(VM) on the left, click Microsoft edge shortcut (Medge) on the desktop and enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein.
+1. Within the virtual machine(VM) on the left, click Microsoft edge shortcut (Msdge) on the desktop and enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein.
 
    ![](../Images/service-portal-00.png)
 
