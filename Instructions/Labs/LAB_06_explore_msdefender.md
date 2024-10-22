@@ -82,13 +82,13 @@ In this lab, you will complete the following tasks:
      
 1. Keep the Microsoft Defender for Cloud overview page open, you'll use in the next task.
 
- <validation step="7d126a53-2db7-496f-b825-52a4ed7740ef"/>
+> - **Congratulations** on completing the task! Now, it's time to validate it. 
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. 
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-   
+<validation step="7d126a53-2db7-496f-b825-52a4ed7740ef"/>   
+
 ## Task 2: How to enable/disable the various Microsoft Defender for Cloud plans
 
 Recall that Microsoft Defender for Cloud is offered in two modes: without enhanced security features (free) and with enhanced security features that are available through the Microsoft Defender for Cloud plans. In this task, you discover how to enable/disable the various Microsoft Defender for Cloud plans.
