@@ -74,7 +74,7 @@ In this task you will explore the Service Trust portal and the different types o
    
 1. From the Service Trust Portal home page, scroll down to the **Industry and Regional Resources (1)** category.  Note the available tiles.  Select **Financial Services (2)**. 
  
-   ![](../Images/service-portal-9.png)
+   ![](../Images/service-portal-9.0.png)
 
 1. Scroll down to see all the available regions and countries.  Select the tile for any country to view the applicable documents.
 
