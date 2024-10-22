@@ -36,14 +36,26 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. From the left navigation pane, expand **Identity**, expand **Users**, then select **All users**.
 
+     ![](../Images/Asc-900-image1.png)
+
 1. Select **Debra Berger** from the list of users.
+
+    ![](../Images/Asc-900-image2.png)
 
 1. Select **Reset password** from the top of the page. Since you have not previously signed in as Debra Berger you don’t know her password and will need to reset the password.
 
+    ![](../Images/Asc-900-image3.png)
+
 1. When the password reset window opens, select **Reset Password** and copy the password.
 
+     ![](../Images/Asc-900-image4.png)
+
+     ![](../Images/Asc-900-image5.png)
+   
    >**Note**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
    >**Note**: Make a note of the User principal name, as you will need it in a subsequent task, to be able to sign in as the user.
+
+     ![](../Images/Asc-900-image6.png)
 
 1. Close the password reset window by selecting the X at the top right corner of the page, then close out of the Debra Berger window by selecting the X at the top right corner of the page.
 
@@ -59,14 +71,14 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. From the left navigation pane, expand **Protection** then select **Conditional Access** and click on **+ Create new policy**. 
 
-   ![](../Images/create-policy.png)
+   ![](../Images/Asc-900-image7.png)
    
    >**Note**: If you see a message at the bottom "It looks like you're about to manage your organization's security configurations. That's great! You must first disable security defaults before enabling a Conditional Access policy", click on **Disable security defaults**, and select **Disable** from the drop down menu.
    > ![](../Images/disable-security-defaults.png)
 
 1. Enter the following details,
 
-    - In the Name field, enter **Block admin portals**.
+    - In the Name field, enter **MFA Test Policy**.
 
     - Under Users, select **0 users and groups selected**.
 
@@ -80,17 +92,21 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
     ![](../Images/sc900lab3-image4.png)
 
-1. Under **Target resources**, select **No target resources are selected**.
+1. Under **Target resources**, select **No target resources are selected (1)**. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure 
+   **Cloud apps (2)** is highlighted and **Include** is selected (underlined), then select **Select apps (3)**.  under **Select** click on **None (4)**, then the window 
+   to Select Cloud apps opens.
 
-1. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is highlighted and **Include** is selected (underlined), then select **Select apps**.  under **Select** click on **None**, then the window to Select Cloud apps opens.
-
+     ![](../Images/Asc-900-image8.png)
+   
 1. In the search bar, Type/Search and select **Microsoft admin portals**, then press **Select** at the bottom of the page.  Notice the warning.  
     
-    ![](../Images/mirco_01.png)
+    ![](../Images/Asc-900-image9.png)
 
-1. Under Network, select **Any network or location**.  Review the options but do not select any options.
+1. Under Network, select **Not Configured**.  Review the options but do not select any options.
    
-    ![](../Images/select-network.png)
+    ![](../Images/Asc-900-image10.png)
+
+    ![](../Images/Asc-900-image11.png)
 
 1. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
 
@@ -98,15 +114,15 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. The Grant window opens.  Ensure **Block access** is selected and then press **Select** at the bottom of the page.
 
-    ![](../Images/grant-controls.png)
+    ![](../Images/Asc-900-image12.png)
 
 1. At the bottom of the page, Under Enable policy, select **On**, then press the **Create button**.
 
-    ![](../Images/lab3-1.png)
+    ![](../Images/Asc-900-image13.png)
 
-1. After a few seconds, the **Block admin portals** policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
+1. After a few seconds, the **MFA Test Policy** policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
 
-    ![](../Images/policy-created.png)
+    ![](../Images/Asc-900-image14.png)
 
 1. Sign out of Azure and close your browser windows.
 
@@ -133,11 +149,11 @@ In this task, you will see the impact of the conditional access policy, from the
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting Sign out. Then the close all the browser windows.
    
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    - If you receive a success message, you can proceed to the next task.
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
 
-   <validation step="b9582d28-5224-4989-bd2e-79d113c4f946" />   
+   <validation step="b9582d28-5224-4989-bd2e-79d113c4f946" />  
 
 ## Review
 In this lab, you have completed:
