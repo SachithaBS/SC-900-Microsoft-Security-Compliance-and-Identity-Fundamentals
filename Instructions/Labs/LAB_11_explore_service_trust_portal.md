@@ -64,13 +64,13 @@ In this task you will explore the Service Trust portal and the different types o
 
 1. To verify that the document has been saved, scroll up to the top of the page and select **My Library**, view the document that we have saved.
 
-   ![](../Images/service-portal-3.0.png)
+   ![](../Images/sc-900-lab11-7.png)
    
-   ![](../Images/service-portal3.png)
+   ![](../Images/service-portal-7.1.png)
 
 1. From the top of the My Library page, select **Service Trust Portal** to return to the Service Trust Portal home page.
 
-   ![](../Images/service-portal-4.png)
+   ![](../Images/sc-900-lab11-8.png)
    
 1. From the Service Trust Portal home page, scroll down to the **Industry and Regional Resources (1)** category.  Note the available tiles.  Select **Financial Services (2)**. 
  
