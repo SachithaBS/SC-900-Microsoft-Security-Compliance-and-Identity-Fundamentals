@@ -22,14 +22,13 @@ In this lab, you will complete the following tasks:
 
 1.	Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**.
 
-    
 1. In the Sign in window enter following email  then select **Next**.
 
-   * Email : **<inject key="AzureAdUserEmail"></inject>**
+   * **Email** : **<inject key="AzureAdUserEmail"></inject>**
      
 1. Enter the admin following password and select **Sign in**.
 
-   * Password : **<inject key="AzureAdUserPassword"></inject>** 
+   * **Password** : **<inject key="AzureAdUserPassword"></inject>** 
 
 1. From the left navigation menu, under **System**, select **Settings**.
 
@@ -59,7 +58,22 @@ In this lab, you will complete the following tasks:
 
       ![Picture 1](../Images/Asc-900-image20.png)
    
-1. After you upload your log files, it will take some minutes for them to be parsed and analyzed. Wait till the status of your log files turns **Ready**.
+1. After you upload your log files, it will take some minutes for them to be parsed and analyzed.
+
+1. Click on **Proccessing**, if you encounter error **All discovered cloud related transactions are more than 90 days** following the below subpoints else proceed with next step.
+    
+    - Open the file which you downloaded with notepade notice the data.
+    - Here we need to changes the month date which should be within 90 days period make the changes accordindly.
+    - Make sure you changes the month date whch should be within 90 days. And save the file.
+    - On the **Cloud apps** page, Under **Cloud Discovery**, select **Snapshot Reports (2)**, and click **+ Create Snapshot Report (3)**.
+    - Under **Report Details** tab, Enter a **Report name** and a **Description**.
+    - Under **Upload Traffic Logs** Tab, In **Choose traffic logs** browse and upload the log file which you modified. Click **Upload logs >**.
+    - After the upload completes, click on **snapshot reports** link on **Create new Cloud Discovery snapshot report** page.
+    - Click on **Progressing** and this time you should not encounter with the error **All discovered cloud related transactions are more than 90 days**
+
+1. After you upload your log files, it will take some minutes for them to be parsed and analyzed.
+
+1. Wait till the status of your log files turns **Ready**.
 
     ![Picture 1](../Images/Asc-900-image29.png)
     
